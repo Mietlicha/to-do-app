@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="note-title" placeholder="enter a title" />
+    <p>last updated: <span id="last-updated"></span></p>
+    <textarea
+      name="note-body"
+      id="note-body"
+      cols="30"
+      rows="10"
+      placeholder="enter a content"
+    ></textarea>
+    <button id="remove-note">remove note</button>
+    <a href="index.html">save notes</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="notes-functions.js"></script>
+    <script src="notes-edit.js"></script>
+  </body>
+</html>
